@@ -5,7 +5,7 @@
 
 #define iterations 500
 #define mainthread 0       
-// timing algorithms
+// timing
 double CLOCK() {
         struct timespec t;
         clock_gettime(CLOCK_MONOTONIC,  &t);
